@@ -2,7 +2,8 @@ import React,{useState,useEffect} from 'react'
 import "../style.scss";
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
 
-import SwitchTab from '../../../components/switchTabs/switchTab';
+// import SwitchTab from '../../../components/switchTabs/SwitchTab';
+import SwitchTab from "../../../components/switchTabs/SwitchTab"
 
 import useFetch from '../../../hooks/useFetch';
 
