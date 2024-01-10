@@ -1,0 +1,42 @@
+.pageNotFound{
+       
+    padding-top: 200px;
+    height: 700px;
+     
+        .contentWrapper{
+                // color: white;
+                color: var(--black-light);
+               display: flex;
+               flex-direction: column;
+               text-align: center;
+
+        
+               
+            
+                .bitText{
+                 font-size: 150px;
+                }
+
+                .smallText{
+                      font-size: 75px;
+
+                }
+
+                .goback{
+                    margin-top: 25px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2px;
+                    svg{
+                        color: white;
+                        text-align: center;
+                      
+                      }
+
+                   
+                }
+              
+        }
+}
