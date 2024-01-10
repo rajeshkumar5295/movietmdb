@@ -2,11 +2,12 @@ import React,{useState,useEffect} from 'react'
 import "../style.scss";
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
 
-import SwitchTab from '../../../components/switchTabs/switchTab';
+import SwitchTab from '../../../components/switchTabs/SwitchTab';
 
 import useFetch from '../../../hooks/useFetch';
 
 import Carousel from '../../../components/carousel/Carousel';
+
 const Popular = () => {
         
       // /3/trending/all/{time_window}
